@@ -1,0 +1,315 @@
+h1 {
+    font-size: 1.4em;
+}
+
+em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+label {
+    color: #5e5873;
+    font-size: .857rem;
+}
+
+.card {
+    border: none;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+
+.b-avatar .b-avatar-badge {
+    font-size: 45% !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.dark {
+    background: #161D31;
+    color: var(--light);
+}
+
+.dark .table thead th {
+    background-color: transparent !important;
+}
+
+.dark .swal2-popup {
+    background: #283046;
+}
+
+.dark .swal2-popup .swal2-html-container {
+    color: white;
+}
+
+.dark .navbar__nav,
+.dark .head,
+.dark .footer,
+.dark .card,
+.dark input,
+.dark select,
+.dark .modal-body,
+.dark .modal-title,
+.dark .flatpickr-days,
+.dark .modal-footer,
+.dark .modal-title button,
+.dark .small-footer,
+.dark .isSidebar,
+.dark .defaultSidebar,
+.dark .dropdown-menu {
+    background: #283046 !important;
+    color: white !important;
+}
+
+.dark .flatpickr-days .nextMonthDay {
+    color: #cccccc8c;
+}
+
+.dark .flatpickr-monthDropdown-months {
+    background-color: transparent !important;
+}
+
+.dark .numInputWrapper input {
+    background-color: transparent !important;
+}
+
+.dark .vs__dropdown-toggle,
+.dark .vs__open-indicator {
+    border-color: #ffffff;
+    fill: #fff;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark .p,
+.dark small,
+.dark span,
+.dark label,
+.dark legend,
+.dark .dropdown-menu li a,
+.dark a {
+    color: #fff;
+}
+
+.dark .v-select.vs--single .vs__selected {
+    color: #fff;
+}
+
+small {
+    color: #000;
+}
+
+.dark .table thead tr {
+    background-color: #343d55;
+}
+
+.dark .table thead th {
+    color: #b4b7bd;
+}
+
+.table thead th, .table tfoot th {
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    letter-spacing: 0.5px;
+
+    border-bottom: 2px solid #ebe9f1;
+    background-color: #f3f2f7;
+}
+
+.table {
+    width: 100%;
+    color: #6e6b7b;
+}
+
+.table td, .table th {
+    padding: 0.72rem;
+    border-top: 1px solid #ebe9f1;
+    font-size: 15px;
+}
+
+.btn .btn-content {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/*Pagination*/
+button.Page.Page-active {
+    color: white;
+}
+
+button.Page {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+}
+
+.Pagination {
+    justify-content: end;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-2 {
+    margin-left: 1.5rem;
+}
+
+.ml-3 {
+    margin-left: 3rem;
+}
+
+.ml-05 {
+    margin-left: .5rem;
+}
+
+.mr-05 {
+    margin-right: 0.5rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mr-2 {
+    margin-right: 1.5rem;
+}
+
+.mr-3 {
+    margin-right: 3rem;
+}
+
+.tabs__2 .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background: var(--primary);
+}
+
+.dark .tabs__2 .nav-link {
+    color: #d0d2d6;
+}
+
+.tabs__2 .nav-link {
+    color: #5e5873;
+    width: 300px;
+    text-align: left;
+}
+
+.tab-content {
+    width: 100%;
+}
+
+.page__not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.page__not-found .__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.page__not-found .__btn button {
+    margin-top: 10px;
+}
+
+select {
+    box-shadow: none !important;
+}
+
+select:focus {
+    border: 1px solid #ced4da !important;
+}
+
+input::placeholder {
+    transition: all .2s;
+    font-size: 14px;
+}
+
+input:focus::placeholder {
+    padding-left: 5px;
+}
+
+.d__flex .text-warning {
+    display: block;
+    font-size: 16px;
+    color: #198754 !important;
+}
+
+legend {
+    color: #5e5873;
+    font-size: .867rem !important;
+}
+
+label {
+    color: #5e5873;
+    font-size: .857rem;
+}
+
+.dark .brand-logo h2 {
+    color: #fff !important;
+}
+
+.Page-active {
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.Page-active:hover {
+    border: none;
+}
+
+.Pagination button {
+    border: none;
+}
+
+.Pagination button:hover {
+    border: none;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+.dark .input-group-text {
+    background-color: #283046;
+    fill: #fff;
+    color: #fff;
+}
+
+.dark tbody td {
+    color: #b4b7bd;
+}
+
+.dark thead th {
+    color: #d0d2d6;
+}
+

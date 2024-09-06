@@ -1,0 +1,55 @@
+.auth-wrapper {
+    /*display: flex;*/
+    /*flex-basis: 100%;*/
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../../images/dishes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.auth-wrapper .auth-inner {
+    /*width: 100%;*/
+}
+
+
+.auth-inner .card {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    width: 29%;
+}
+
+.auth-inner .card .card-body {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .auth-wrapper.auth-v1 {
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*overflow: hidden*/
+}
+
+.auth-wrapper.auth-v1 .auth-inner {
+    /*max-width: 400px*/
+}
+
+.auth-wrapper .brand-logo {
+    display: flex;
+    justify-content: center
+}
+
+.auth-wrapper .brand-logo {
+    margin: 1rem 0 1rem 0
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 1.285rem;
+}
+
